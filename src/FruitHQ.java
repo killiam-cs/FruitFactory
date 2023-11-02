@@ -10,15 +10,21 @@ public class FruitHQ {
     public FruitHQ() {
         // strawberry: red, triangle, 200, true, 20
         Fruit strawberry; // declare strawberry
-        strawberry = new Fruit(); // construct strawberry
-        strawberry.color = "red";
-        strawberry.shape = "triangle";
-        strawberry.numSeeds = 200;
-        strawberry.isRipe = true;
-        strawberry.numBush = 20;
-        strawberry.printInfo();
+//        strawberry = new Fruit("red", 200); // construct strawberry
+//        strawberry.color = "red";
+//        strawberry.shape = "triangle";
+//        strawberry.numSeeds = 200;
+//        strawberry.isRipe = true;
+//        strawberry.numBush = 20;
+//        strawberry.printInfo();
 
         // another fruit of your choice
+        Fruit mango;
+        mango = new Fruit("yellowy orange to green gradient",
+                "oval",1, false);
+        mango.printInfo();
+
+        // yet another fruit with a printInfo
 
     }
 
